@@ -36,7 +36,7 @@
     "react-dom": "http://react.zpao.com/builds/master/latest/react-dom.tgz"
   },
   "scripts": {
-    "preinstall": "npm run prepublish",
+    "postinstall": "npm run prepublish",
     "prepublish": "gulp",
     "test": "jest"
   },
