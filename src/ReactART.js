@@ -15,6 +15,7 @@ require('art/modes/fast'); // Flip this to DOM mode for debugging
 
 var Transform = require('art/core/transform');
 var Mode = require('art/modes/current');
+Mode.setCurrent(require('art/modes/svg'));
 
 var React = require('react');
 var ReactInstanceMap = require('react/lib/ReactInstanceMap');
