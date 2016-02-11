@@ -12,7 +12,7 @@
 'use strict';
 
 require('art/modes/current').setCurrent(
-  require('art/modes/fast-noSideEffects') // Flip this to DOM mode for debugging
+  require('art/modes/svg') // Flip this to DOM mode for debugging
 );
 
 var Transform = require('art/core/transform');
